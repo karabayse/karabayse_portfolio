@@ -54,6 +54,19 @@ a.active {
   /*background-color: Black;*/
 }
 
+.backgroundDiv {
+  /*margin-top: 30px;*/
+  /*min-height: 753px;*/
+  margin-top: -1em;
+  background-size: cover;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
 
 
 /*****  ABOUT  *****/
