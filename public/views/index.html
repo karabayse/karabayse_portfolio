@@ -14,20 +14,24 @@
 
 <body ng-app="myApp">
 
-  <div class="header">
+  <div class="jumbotron">
     <h1>Kara Bayse</h1>
-    <h6>Full Stack Software Engineer</h6>
+    <hr width="50%">
+    <h3>Full Stack Software Engineer</h3>
+
+    <nav class="navbar">
+      <base href="/">
+      <!-- <a href="/home"></a> -->
+      <a href="/about">About</a>
+      <a href="/linkedin">LinkedIn</a>
+      <a href="/github">GitHub</a>
+    </nav>
+
   </div>
 
-  <div class="container">
-    <nav>
-      <base href="/" target="_blank">
-      <!-- <a href="/home"></a> -->
-      <a href="/about"></a>
-      <a href="/linkedin"></a>
-      <a href="/github"></a>
-    </nav>
     <main ng-view></main>
+
+      <div class="container">
 
   </div>
 

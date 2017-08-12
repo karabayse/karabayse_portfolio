@@ -1,0 +1,45 @@
+/*****  HOME  *****/
+.jumbotron {
+  font-family: Helvetica;
+  text-align: center;
+  letter-spacing: 2px;
+  color: White;
+  background-color: Black;
+}
+
+.navbar {
+  margin-left:50px;
+  margin-right:50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Helvetica;
+}
+
+.navbar a {
+  color: White;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 125%;
+  letter-spacing: 2px;
+  margin-left:30px;
+  margin-right:30px;*/
+  padding-left:30px;
+  padding-right:30px;
+}
+
+a.active-home {
+    color: Grey;
+    text-decoration: underline;
+}
+
+a.active {
+    color: Black;
+    text-decoration: underline;
+}
+
+.container {
+  background-color: Black;
+}
+
+
+/*****  ABOUT  *****/
