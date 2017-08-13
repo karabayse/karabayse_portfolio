@@ -6,6 +6,9 @@ var bodyParser = require('body-parser');
 // uses
 router.use(bodyParser.urlencoded({extended: true}));
 router.use(bodyParser.json());
+// router.use(function(req, res) {
+//     res.sendfile(__dirname + 'public/views/index.html');
+// });
 
 router.get('/', function(req, res) {
   console.log('base url hit');

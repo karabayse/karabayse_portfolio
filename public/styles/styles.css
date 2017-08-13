@@ -9,7 +9,7 @@
 
 .logo {
   float: left;
-  margin: 50px;
+  margin-left: 50px;
 }
 
 h4 {
@@ -68,5 +68,32 @@ a.active {
   -o-background-size: cover;
 }
 
+#pattern {
+  background-size: cover;
+}
+
+.footer {
+  background-color: Black;
+}
 
 /*****  ABOUT  *****/
+
+#about {
+  /*color: Red;*/
+}
+
+
+
+/*****  WORK  *****/
+
+#work {
+  align-content: center;
+}
+
+
+
+/*****  CONTACT  *****/
+
+#contact {
+  align-content: center;
+}

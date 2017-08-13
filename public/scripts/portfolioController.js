@@ -11,14 +11,14 @@ myApp.config(function($routeProvider, $locationProvider) {
     templateUrl: '/views/about.html',
     controller: 'AboutController',
     controllerAs: 'AboutController as ac'
-  }).when('/linkedin', {
-    templateUrl: 'https://www.linkedin.com/in/karabayse/',
-    controller: 'LinkedInController',
-    controllerAs: 'LinkedInController as lic'
-  }).when('/github', {
-    templateUrl: 'https://github.com/karabayse',
-    controller: 'GitHubController',
-    controllerAs: 'GitHubController as ghc'
+  }).when('/work', {
+    templateUrl: '/views/work.html',
+    controller: 'WorkController',
+    controllerAs: 'WorkController as wc'
+  }).when('/contact', {
+    templateUrl: '/views/contact.html',
+    controller: 'ContractController',
+    controllerAs: 'ContactController as cc'
   }).otherwise('/');
   $locationProvider.html5Mode(true);
 }); // end config
