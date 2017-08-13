@@ -68,6 +68,19 @@ a.active {
   -o-background-size: cover;
 }
 
+.codercat {
+  float: left;
+}
+
+.bio {
+  float: right;
+  color: Grey;
+}
+
+.technicalSkills {
+  color: Grey;
+}
+
 #pattern {
   background-size: cover;
 }
