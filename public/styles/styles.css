@@ -81,13 +81,17 @@ a.active {
   color: Grey;
 }
 
-#pattern {
+.education {
+  color: Grey;
+}
+
+/*#pattern {
   background-size: cover;
 }
 
 .footer {
   background-color: Black;
-}
+}*/
 
 
 
