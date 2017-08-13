@@ -104,10 +104,13 @@ a.active {
   align-content: center;
 }
 
-
+#gitHub {
+  color: Grey;
+}
 
 /*****  CONTACT  *****/
 
 #contact {
   align-content: center;
+  color: Grey;
 }
