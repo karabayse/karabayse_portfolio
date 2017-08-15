@@ -10,7 +10,7 @@ router.use(bodyParser.json());
 //     res.sendfile(__dirname + 'public/views/index.html');
 // });
 
-router.get('/', function(req, res) {
+router.get('/*', function(req, res) {
   console.log('base url hit');
   res.sendFile(path.resolve('public/views/index.html'));
 }); // end router.get for index.html

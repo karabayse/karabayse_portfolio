@@ -1,5 +1,9 @@
-KARA BAYSE Portfolio
+KARA BAYSE PORTFOLIO
 ====================
 
 Application Overview
 --------------------
+A personal portfolio showcasing my solo and group projects from Prime Digital
+Academy, technical skills, as well as links to my GitHub and LinkedIn pages.
+
+www.karabayse.com
