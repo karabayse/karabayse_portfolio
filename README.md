@@ -1,4 +1,4 @@
-KARA BAYSE PORTFOLIO
+Kara Bayse Portfolio
 ====================
 
 Application Overview
