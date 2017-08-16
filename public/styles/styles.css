@@ -5,6 +5,8 @@
   letter-spacing: 1em;
   color: White;
   background-color: SlateGrey;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
 .logo {
@@ -46,14 +48,6 @@ a.active {
     text-decoration: underline;
 }
 
-.container {
-  /*background-color: Black;*/
-}
-
-.footer {
-  /*background-color: Black;*/
-}
-
 .backgroundDiv {
   /*margin-top: 30px;*/
   /*min-height: 753px;*/
@@ -84,14 +78,6 @@ a.active {
 .education {
   color: Grey;
 }
-
-/*#pattern {
-  background-size: cover;
-}
-
-.footer {
-  background-color: Black;
-}*/
 
 
 
