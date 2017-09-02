@@ -8,43 +8,65 @@
 
 <p>
 <h4>
-  If you have any questions, please contact me via LinkedIn or email.
+  If you have any questions, please contact me via LinkedIn.
+  <!-- or email  -->
 </h4>
 </p>
 <hr width="100%">
 
 <p>
-<!-- <img src="./styles/images/linkedin.png" width="200" height="200"> -->
 <a href="https://www.linkedin.com/in/karabayse/"><img src="./styles/images/linkedin.png" width="200" height="200"></a>
 </p>
 
-<p>
-<!-- <img src="./styles/images/gmail.png" width="100" height="65"> -->
+<!-- <p>
 <a href="mailto:karabayse@gmail.com"><img src="./styles/images/gmail.png" width="100" height="65"</a>
-</p>
+</p> -->
 
-<!-- <div class="container">
-  <form action="karabayse@gmail.com">
+<!-- <form>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form> -->
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="First Name">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Last Name">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
+<!-- <div>
+<h1>Mailer In Node.JS</h1>
+<input id="to" type="text" placeholder="Enter E-mail ID where you want to send" />
+<input id="subject" type="text" placeholder="Write Subject" />
+<textarea id="content" cols="40" rows="5" placeholder="Write what you want to send"></textarea>
+<button id="send_email">Send Email</button>
+<span id="message"></span>
 </div> -->
+
+<script>
+$(document).ready(function(){
+    var from,to,subject,text;
+    $("#send_email").click(function(){
+        to=$("#to").val();
+        subject=$("#subject").val();
+        text=$("#content").val();
+        $("#message").text("Sending E-mail...Please wait");
+        $.get("http://localhost:6378/send",{to:to,subject:subject,text:text},function(data){
+        if(data=="sent")
+        {
+            $("#message").empty().html("
+
+Email is been sent at "+to+" . Please check inbox!
+
+");
+        }
+
+});
+    });
+});
+</script>
 
 </div>

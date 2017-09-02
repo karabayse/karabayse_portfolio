@@ -1,4 +1,5 @@
 /*****  HOME  *****/
+
 .jumbotron {
   font-family: Helvetica;
   text-align: center;
@@ -46,6 +47,10 @@ a.active-home {
 a.active {
     color: Black;
     text-decoration: underline;
+}
+
+a {
+  color: Black;
 }
 
 .backgroundDiv {
