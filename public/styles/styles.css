@@ -84,7 +84,9 @@ a {
   color: Grey;
 }
 
-
+.row {
+  align-content: center;
+}
 
 /*****  ABOUT  *****/
 
