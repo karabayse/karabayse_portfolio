@@ -22,51 +22,19 @@
 <a href="mailto:karabayse@gmail.com"><img src="./styles/images/gmail.png" width="100" height="65"</a>
 </p> -->
 
-<!-- <form>
+<form>
   <div class="form-group">
-    <label for="email">Email address:</label>
+    <label for="email">Sender email address:</label>
     <input type="email" class="form-control" id="email">
   </div>
   <div class="form-group">
-    <label for="pwd">Password:</label>
+    <label for="message">Message:</label>
     <input type="password" class="form-control" id="pwd">
   </div>
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
   </div>
   <button type="submit" class="btn btn-default">Submit</button>
-</form> -->
-
-<!-- <div>
-<h1>Mailer In Node.JS</h1>
-<input id="to" type="text" placeholder="Enter E-mail ID where you want to send" />
-<input id="subject" type="text" placeholder="Write Subject" />
-<textarea id="content" cols="40" rows="5" placeholder="Write what you want to send"></textarea>
-<button id="send_email">Send Email</button>
-<span id="message"></span>
-</div> -->
-
-<script>
-$(document).ready(function(){
-    var from,to,subject,text;
-    $("#send_email").click(function(){
-        to=$("#to").val();
-        subject=$("#subject").val();
-        text=$("#content").val();
-        $("#message").text("Sending E-mail...Please wait");
-        $.get("http://localhost:6378/send",{to:to,subject:subject,text:text},function(data){
-        if(data=="sent")
-        {
-            $("#message").empty().html("
-
-Email is been sent at "+to+" . Please check inbox!
-
-");
-        }
-
-});
-    });
-});
-</script>
-
-</div>
+</form>
+<br>
+<br>
