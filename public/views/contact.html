@@ -27,24 +27,24 @@
 <form action="mailto:karabayse@gmail.com" method="post" enctype="text/plain">
   <div class="form-group">
     <label for="name">Name:</label>
-    <input type="name" class="form-control" id="name">
+    <input type="name" class="form-control" id="name" ng-model="cc.name">
   </div>
   <div class="form-group">
     <label for="email">Email address:</label>
-    <input type="email" class="form-control" id="email">
+    <input type="email" class="form-control" id="email" ng-model="cc.email">
   </div>
   <div class="form-group">
     <label for="Message">Message:</label>
-    <input type="message" class="form-control" id="message">
+    <input type="message" class="form-control" id="message" ng-model="cc.message">
   </div>
   <!-- <div class="form-group">
     <label for="password">Password:</label>
-    <input type="password" class="form-control" id="pwd">
+    <input type="password" class="form-control" id="pwd" ng-model="cc.password">
   </div> -->
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default" ng-click="cc.submitEmail()">Submit</button>
 </form>
 <br>
 <br>
