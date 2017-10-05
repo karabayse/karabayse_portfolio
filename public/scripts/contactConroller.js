@@ -10,14 +10,14 @@ myApp.controller('ContactController', function(PortfolioService) {
 vm.submitEmail = function() {
    var emailObject = {
      name: vm.name,
-     email: vm.email,
+     emailAddress: vm.email,
      comments: vm.message
    }; // end emailObject
    console.log('emailObject: ', emailObject);
    PortfolioService.submitEmail(emailObject).then(function() {
         sweetAlert("Email Sent!");
         vm.nameInput = '';
-        vm.emailInput = '';
+        vm.emailAddressInput = '';
         vm.messageInput = '';
       }); // end EntryService.journalEntry
  }; // end submitEmail

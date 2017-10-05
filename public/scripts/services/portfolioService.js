@@ -8,11 +8,11 @@ myApp.service('PortfolioService', function($http) {
   sv.submitEmail = function(email) {
     return $http({
       method: 'POST',
-      url: '/portfolio',
+      url: '/email',
       data: emailObject
     }).then(function(response){
       console.log('back from submitEmail post:', response);
     });
-  }; // end postLocation
+  }; // end sv.submitEmail
 
 }); // end myApp.service
