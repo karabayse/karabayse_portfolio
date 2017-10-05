@@ -18,21 +18,3 @@ myApp.config(function($routeProvider, $locationProvider) {
   }).otherwise('/');
   $locationProvider.html5Mode(true);
 }); // end config
-
-
-// function to submit email
-vm.submitEmail = function() {
-   var emailObject = {
-     name: vm.name,
-     email: vm.email,
-     comments: vm.message
-   };
-   console.log('emailObject: ', emailObject);
-   $http({
-     method: 'POST',
-     data: emailObject,
-     url: '/portfolio'
-   }).then(function (response){
-
-   });
- }; // end submitEmail
