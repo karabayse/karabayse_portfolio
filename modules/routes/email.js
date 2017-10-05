@@ -12,13 +12,13 @@ var emailSchema = new mongoose.Schema({
 }); // end emailSchema
 var emailModel = mongoose.model('emailModel', emailSchema);
 
-router.get('/', function(req, res) {
-  console.log('emailObject');
-  emailModel.find().then(function(email){
-    res.send(email);
-    console.log('email:', email);
-  });
-}); // end email get call
+// router.get('/', function(req, res) {
+//   console.log('emailObject');
+//   emailModel.find().then(function(email){
+//     res.send(email);
+//     console.log('email:', email);
+//   });
+// }); // end email get call
 
 router.post('/', function(req, res) {
   console.log('email url hit', req.body);
