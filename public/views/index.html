@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="icon" src="./styles/images/kb.png">
+  <link rel="icon" src="./styles/images/femalecodertocat.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Megrim:400,700" type="text/css">
   <!-- <link rel="icon" href="http://kulturbolaget.se/wp-content/themes/kulturubolaget/images/artwork/kb-logo13-clean.png" type="image/png"> -->
   <link rel="stylesheet" href="vendors/bootstrap.min.css">
   <link rel="stylesheet" href="styles/styles.css">
@@ -20,47 +21,137 @@
 <body ng-app="myApp">
 
   <div class="jumbotron" height="300px">
-    <img src="./styles/images/kb.png" class="logo">
+    <!-- <img src="./styles/images/kb.png" class="logo"> -->
     <h1>Kara Bayse</h1>
     <h4>Full Stack Software Engineer</h4>
     <hr width="50%">
 
     <nav class="navbar">
       <base href="/">
-      <a href="/home">Home</a>
-      <a href="/work">Work</a>
-      <a href="/contact">Contact</a>
+      <a href="#about">ABOUT</a>
+      <a href="#work">WORK</a>
+      <a href="#contact">CONTACT</a>
     </nav>
 
 
   </div>
 
     <main ng-view></main>
-        <div class="container" class="backgroundDiv">
-          <!-- <img src="styles/images/pattern.png" alt=""> -->
 
-        </div>
+        <div class="container" id="about">
+
+          <div class="bio">
+            <h3>About</h3>
+
+            <h4>
+          <p>
+            My name is Kara Bayse.  I am a full-stack software engineer living in Minnesota.
+            In my free time, I enjoy traveling domestically and internationally, reading, listening to music,
+            playing tennis, and hiking.
+          </p>
+
+          <p>
+            I am on a mission to learn as much as possible about technology.
+          </p>
+          </h4>
+          </div>
+
+          <p>
+            <br>
+            <br>
+          </p>
+          <hr width="100%">
+
+          <div class="technicalSkills">
+            <h3>Technical Skills</h3>
+            <h4>
+        <p>
+        Javascript  |
+        AngularJS  |
+        jQuery  |
+        MongoDB  |
+        PostgreSQL  |
+        Express.js  |
+        Node.js  |
+        HTML5  |
+        CSS3  |
+        Bootstrap  |
+        Git  |
+        GitHub  |
+        npm  |
+        AJAX  |
+        APIs  |
+        Heroku
+        </p>
+        </h4>
+          </div>
+          <hr width="100%">
+
+          <div class="education">
+            <h4>
+        <p>
+          <h3>Education</h3>
+          <h4>
+            <p>
+          Prime Digital Academy	 |
+          Full Stack Software Engineering Certification
+          </p>
+
+          Gustavus Adolphus College  |
+          Bachelor of Arts: English Major, Spanish Minor
+          </h4>
+        </p>
+        </h4>
+      </div>
+
+    </div>
+    <!-- **** END ABOUT **** -->
+
+
+<br>
+<div class="container" id="work">
+
+<h3>Work</h3>
+
+  <p>
+    <p>
+      <a href="https://travelogue-solo-project.herokuapp.com"><h3>Travelogue  |  Solo Project</h3></a>
+    </p>
+    <h5>
+      Upon traveling, I found myself wanting to log my experiences without the burden of writing longhand entries at the end of the day.
+      Users have the ability to electronically log travel experiences with a date stamp and geolocation.
+      Technologies used:  JavaScript, AngularJS, MongoDB, Mongoose, CSS3, Bootstrap, Node.js, Express.js, Google Maps API, Filestack API
+    </h5>
+    <img src="styles/images/travelogue.png" width="900" height="600">
+  </p>
+
+  <br>
+  <br>
+
+  <p>
+    <p>
+      <a href="https://github.com/karabayse/Pabs_Packs"><h3>Pab's Packs  |  Group Project</h3></a>
+    </p>
+    <h5>
+      The client, Pab’s Packs, is a non-profit founded by teenagers to provide comfort and encouragement to chronically ill teens by donating custom backpacks filled with select items to make their hospital stays easier.
+      I Worked within a team of four developers to build an application that tracks inventory for the backpacks and the merchandise sold at their Debut: Shop for Kindness store, as well as the commitments for packing events and hospital drop-offs.
+      Responsible for creating front-end and back-end of the project dashboard.
+      Technologies used:  JavaScript, AngularJS, Angular Chart, PostgreSQL, HTML5, CSS3, Node.js, Express.js.
+    </h5>
+    <img src="styles/images/pabspacks.png" width="900" height="500">
+  </p>
+
+</div>
+
+<div class="container" id="contact">
+
+<hr width="100%">
 
 </body>
 
-<!-- <footer class="container">
-  <div class="row">
-    <!- <p>
-      &copy; 2017 Kara Bayse
-    </p> -->
-    <!-- <ul class="col-sm-8">
-      <li class="col-sm-1">
-        <img src="https://s3.amazonaws.com/codecademy-content/projects-make-a-website/lesson-4/twitter.svg" alt="">
-      </li>
-    </ul> -->
-  <!-- </div> -->
-
-<!-- </footer> -->
-
-
-<!-- <footer class="footer" id="footer">
-  &copy; 2017 Kara Bayse
-</footer> -->
-
-
+<footer>
+  <p><h3>Contact me on LinkedIn</h3></p>
+  <a href="https://www.linkedin.com/in/karabayse/"><img src="./styles/images/linkedin-in.png" width="50" height="50"></a>
+  <a href="https://github.com/karabayse"><img src="./styles/images/github2.png" width="50" height="50"></a>
+</footer>
 </html>
