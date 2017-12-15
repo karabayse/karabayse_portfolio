@@ -23,10 +23,11 @@
 body{
     margin: 0px;
     padding: 0px;
-    /*min-height: 2000px;*/
 }
 
-
+.sectionHeader {
+  font-family: 'Megrim';
+}
 
 /*****  HOME  *****/
 
@@ -74,7 +75,7 @@ a.active {
 }
 
 a {
-  color: Black;
+  color: #36648B;
 }
 
 .backgroundDiv {
@@ -91,28 +92,27 @@ a {
   -o-background-size: cover;
 }
 
-.codercat {
-  float: left;
-}
-
 .bio {
   float: right;
-  color: Grey;
+  /* color: Grey; */
+  color: #607B8B;
 }
 
 .technicalSkills {
-  color: Grey;
+  /* color: Grey; */
+  color: #607B8B;
 }
 
 .education {
-  color: Grey;
+  /* color: Grey; */
+  color: #607B8B;
 }
 
 
 /*****  ABOUT  *****/
 
 #about {
-  /*color: Red;*/
+  background-color: #F2F2F2;
 }
 
 
@@ -121,10 +121,13 @@ a {
 
 #work {
   align-content: center;
+  color: #607B8B;
+  background-color: #F2F2F2;
 }
 
 #gitHub {
-  color: Grey;
+  /* color: Grey; */
+  color: #607B8B;
 }
 
 
@@ -133,7 +136,8 @@ a {
 
 #contact {
   align-content: center;
-  color: Grey;
+  /* color: Grey; */
+  color: #607B8B;
 }
 
 footer {
