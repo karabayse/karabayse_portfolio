@@ -123,6 +123,7 @@ a {
   align-content: center;
   color: #607B8B;
   background-color: #F2F2F2;
+  /* text-align: justify; */
 }
 
 #gitHub {
