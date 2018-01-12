@@ -41,6 +41,10 @@ body{
   padding-bottom: 5px;
 }
 
+#jobTitle {
+  word-spacing: 15px;
+}
+
 h4 {
   letter-spacing: 2px;
 }
